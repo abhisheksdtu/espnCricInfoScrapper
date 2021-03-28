@@ -11,6 +11,5 @@ function cb(error, response, html) {
 	} else {
 		// console.log(extractHtml);
 		createSeriesFolder.createSeriesFolderFn(html);
-		// console.log(html);
 	}
 }
